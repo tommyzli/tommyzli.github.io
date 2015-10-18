@@ -7,10 +7,18 @@ body {
 }
 
 .home-section {
+    background-color: #D84839;
+    height: 50%;
     margin: 0 auto;
     padding-top: 20px;
     text-align: center;
     &__header {
+        color: #F2F1ED;
         font-size: 50px;
     }
+}
+
+.contact-section {
+    background-color: #262626;
+    color: #F2F1ED;
 }
