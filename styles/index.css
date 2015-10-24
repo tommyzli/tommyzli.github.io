@@ -1,0 +1,48 @@
+---
+---
+
+$DARK_BLUE: #252839;
+$GRAY_BLUE: #677077;
+$LIGHT_GRAY: #b5b5b7;
+$YELLOW: #f2b632;
+
+html {
+    background-color: $LIGHT_GRAY;
+    font-family: "Raleway" !important;
+
+}
+
+.top-bar {
+    background-color: $DARK_BLUE;
+}
+
+.home-section {
+    background-color: $GRAY_BLUE;
+    height: 400px;
+    padding-top: 20px;
+    
+    &__container {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        position: relative;
+        top: 50%;
+        transform: translateY(-70%);
+        &__header {
+           border: 3px solid white;
+            border-radius: 5px;
+            font-size: 50px;
+            padding: 1em 1.6em
+        }
+    } 
+}
+
+.about-section {
+    padding: 50px 20px;
+}
+
+.contact-section {
+    background-color: $DARK_BLUE;
+    color: #F2F1ED;
+}
