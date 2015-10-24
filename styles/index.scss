@@ -1,27 +1,32 @@
 ---
 ---
 
+$DARK_BLUE: #252839;
+$GRAY_BLUE: #677077;
+$LIGHT_GRAY: #b5b5b7;
+$YELLOW: #f2b632;
+
 body {
-    background-color: #F2F1ED;
+    background-color: $LIGHT_GRAY;
 }
 
 .top-bar {
-    background-color: #262626;
+    background-color: $DARK_BLUE;
 }
 
 .home-section {
-    background-color: #D84839;
+    background-color: $GRAY_BLUE;
     height: 50%;
     margin: 0 auto;
     padding-top: 20px;
     text-align: center;
     &__header {
-        color: #F2F1ED;
+        color: $YELLOW;
         font-size: 50px;
     }
 }
 
 .contact-section {
-    background-color: #262626;
+    background-color: $DARK_BLUE;
     color: #F2F1ED;
 }
