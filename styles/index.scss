@@ -39,7 +39,11 @@ html {
 }
 
 .about-section {
-    padding: 50px 20px;
+    margin: 0 auto;
+    padding: 2em;
+    a {
+        color: $YELLOW;
+    }
 }
 
 .contact-section {
