@@ -7,7 +7,7 @@ $LIGHT_GRAY: #b5b5b7;
 $YELLOW: #f2b632;
 
 html {
-    background-color: $LIGHT_GRAY;
+    background-color: $DARK_BLUE;
     font-family: "Raleway" !important;
 
 }
@@ -41,12 +41,13 @@ html {
 .about-section {
     margin: 0 auto;
     padding: 2em;
+    color: white;
     a {
         color: $YELLOW;
     }
 }
 
 .contact-section {
-    background-color: $DARK_BLUE;
+    background-color: $LIGHT_GRAY;
     color: #F2F1ED;
 }
