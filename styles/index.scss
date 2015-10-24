@@ -7,7 +7,7 @@ $LIGHT_GRAY: #b5b5b7;
 $YELLOW: #f2b632;
 
 html {
-    background-color: $DARK_BLUE;
+    background-color: $LIGHT_GRAY;
     font-family: "Raleway" !important;
 
 }
@@ -39,9 +39,10 @@ html {
 }
 
 .about-section {
+    background-color: $DARK_BLUE;
+    color: white;
     margin: 0 auto;
     padding: 2em;
-    color: white;
     a {
         color: $YELLOW;
     }
