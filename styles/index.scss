@@ -7,54 +7,50 @@ $LIGHT_GRAY: #b5b5b7;
 $YELLOW: #f2b632;
 
 html {
-    background-color: $LIGHT_GRAY;
+    background-color: $DARK_BLUE;
     min-width: 480px;
     font-family: "Raleway" !important;
 
 }
 
-.home-section {
-    background-color: $GRAY_BLUE;
-    height: 400px;
-    padding-top: 20px;
-    
-    &__container {
-        width: 70%;
-        margin: 0 auto;
-        text-align: center;
+.landing-page {
+    height: 100vh;
+    padding-top: 1px;
+
+    &__content {
         color: white;
+        margin: 0 auto;
         position: relative;
-        top: 50%;
-        transform: translateY(-70%);
-        &__header {
-           border: 3px solid white;
-            border-radius: 5px;
-            font-size: 50px;
-            padding: 1em 1.6em
-        }
-    } 
-}
-
-.about-section {
-    background-color: $DARK_BLUE;
-    color: white;
-    margin: 0 auto;
-    padding: 2em;
-    a {
-        color: $YELLOW;
-    }
-}
-
-.contact-section {
-    background-color: $LIGHT_GRAY;
-    color: $DARK_BLUE;
-    &__links {
-        list-style-type: none;
         text-align: center;
-        li {
-            color: $YELLOW;
-            display: inline;
-            padding-right: 40px;
+        width: 70%;
+
+        &__about {
+            top: 110px;
+            a {
+                color: $YELLOW;
+            }
+        }
+
+        &__container {
+            top: 50%;
+            transform: translateY(-70%);
+            &__header {
+                border: 3px solid white;
+                border-radius: 5px;
+                font-size: 50px;
+                padding: 1em 1.6em;
+            }
+        } 
+
+        &__links {
+            list-style-type: none;
+            text-align: center;
+            li {
+                color: $YELLOW;
+                display: inline;
+                padding-right: 40px;
+            }
         }
     }
 }
+
