@@ -2,8 +2,6 @@
 ---
 
 $DARK_BLUE: #252839;
-$GRAY_BLUE: #677077;
-$LIGHT_GRAY: #b5b5b7;
 $YELLOW: #f2b632;
 
 html {
@@ -15,7 +13,6 @@ html {
 
 .landing-page {
     height: 100vh;
-    padding-top: 1px;
 
     &__content {
         color: white;
@@ -37,16 +34,18 @@ html {
                 border: 3px solid white;
                 border-radius: 5px;
                 font-size: 50px;
-                padding: 1em 1.6em;
+                padding: 1em 1.4em;
             }
         } 
 
         &__links {
             list-style-type: none;
             text-align: center;
+
             a {
                 color: $YELLOW;
             }
+
             li {
                 display: inline;
                 padding-right: 40px;
