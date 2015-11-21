@@ -6,8 +6,9 @@ $YELLOW: #f2b632;
 
 html {
     background-color: $DARK_BLUE;
-    min-width: 480px;
     font-family: "Raleway" !important;
+    min-width: 480px;
+    overflow-y: hidden;
 
 }
 
