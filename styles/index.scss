@@ -8,12 +8,9 @@ $YELLOW: #f2b632;
 
 html {
     background-color: $LIGHT_GRAY;
+    min-width: 480px;
     font-family: "Raleway" !important;
 
-}
-
-.top-bar {
-    background-color: $DARK_BLUE;
 }
 
 .home-section {
@@ -50,5 +47,14 @@ html {
 
 .contact-section {
     background-color: $LIGHT_GRAY;
-    color: #F2F1ED;
+    color: $DARK_BLUE;
+    &__links {
+        list-style-type: none;
+        text-align: center;
+        li {
+            color: $YELLOW;
+            display: inline;
+            padding-right: 40px;
+        }
+    }
 }
