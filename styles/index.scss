@@ -45,8 +45,10 @@ html {
         &__links {
             list-style-type: none;
             text-align: center;
-            li {
+            a {
                 color: $YELLOW;
+            }
+            li {
                 display: inline;
                 padding-right: 40px;
             }
