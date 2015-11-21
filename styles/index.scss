@@ -48,9 +48,9 @@ html {
 .contact-section {
     background-color: $LIGHT_GRAY;
     color: $DARK_BLUE;
+    text-align: center;
     &__links {
         list-style-type: none;
-        text-align: center;
         li {
             color: $YELLOW;
             display: inline;
