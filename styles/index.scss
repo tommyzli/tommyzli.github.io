@@ -6,50 +6,35 @@ $YELLOW: #f2b632;
 
 html {
     font-family: "Raleway" !important;
-    min-width: 480px;
     overflow-y: hidden;
 }
 
 body {
     background-color: $DARK_BLUE;
+    height: 100vh;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
 }
 
 .landing-page {
-    height: 100vh;
+    top: 20%;
 
-    &__content {
-        color: white;
-        margin: 0 auto;
-        position: relative;
+    &__about {
+        padding-bottom: 10%;
+        
+        a {
+            color: $YELLOW;
+        }
+    }
+
+    &__links {
         text-align: center;
-        top: 20%;
         width: 50%;
 
-        &__about {
-            padding-bottom: 5%;
-            
-            a {
-                color: $YELLOW;
-            }
-        }
-
-        &__container {
-            padding-bottom: 5%;
-
-            &__header {
-                border: 3px solid white;
-                border-radius: 5px;
-                font-size: 50px;
-                padding: 1em 1.4em;
-            }
-        } 
-
-        &__links {
-            text-align: center;
-
-            a {
-                color: $YELLOW;
-            }
+        a {
+            color: $YELLOW;
         }
     }
 }
