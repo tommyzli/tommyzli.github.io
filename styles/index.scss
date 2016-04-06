@@ -5,11 +5,13 @@ $DARK_BLUE: #252839;
 $YELLOW: #f2b632;
 
 html {
-    background-color: $DARK_BLUE;
     font-family: "Raleway" !important;
     min-width: 480px;
     overflow-y: hidden;
+}
 
+body {
+    background-color: $DARK_BLUE;
 }
 
 .landing-page {
