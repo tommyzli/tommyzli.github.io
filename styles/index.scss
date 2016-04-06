@@ -43,15 +43,10 @@ html {
         } 
 
         &__links {
-            list-style-type: none;
             text-align: center;
+
             a {
                 color: $YELLOW;
-            }
-
-            li {
-                display: inline;
-                padding: 0 10%;
             }
         }
     }
