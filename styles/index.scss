@@ -23,7 +23,7 @@ body {
 
     &__about {
         margin-top: 5%;
-        @media (min-width: 992px) {
+        @media (max-width: 992px) {
             margin: 5% 5%;
         }
         
@@ -37,7 +37,7 @@ body {
         width: 50%;
 
         &__icon {
-            padding-top: 5%;
+            padding-top: 10%;
         }
 
         a {
