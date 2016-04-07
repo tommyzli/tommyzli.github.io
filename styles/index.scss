@@ -22,7 +22,10 @@ body {
     top: 20%;
 
     &__about {
-        padding: 5% 0;
+        margin-top: 5%;
+        @media (min-width: 992px) {
+            margin: 5% 5%;
+        }
         
         a {
             color: $YELLOW;
@@ -32,6 +35,10 @@ body {
     &__links {
         margin: 0 auto;
         width: 50%;
+
+        &__icon {
+            padding-top: 5%;
+        }
 
         a {
             color: $YELLOW;
